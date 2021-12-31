@@ -1,4 +1,4 @@
-package Bedingte_Ausdrücke;
+package Vorlesungen.Bedingte_Ausdrücke;
 
 /**
  * Diese Klasse führt einfache Berechnungen mit Hilfe bedingter Ausdrücke durch.

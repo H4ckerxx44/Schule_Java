@@ -1,4 +1,4 @@
-package Klassen_und_Objekte;
+package Vorlesungen.Klassen_und_Objekte;
 
 
 /**

@@ -1,4 +1,4 @@
-package Lokale_Variablen;
+package Vorlesungen.Lokale_Variablen;
 
 /**
  * Der Zweck dieser Klasse ist, Code-Beispiele für die Deklaration und Zuweisung

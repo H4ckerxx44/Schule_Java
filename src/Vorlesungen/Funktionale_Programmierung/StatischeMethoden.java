@@ -1,4 +1,4 @@
-package Funktionale_Programmierung;
+package Vorlesungen.Funktionale_Programmierung;
 
 /**
  * Diese Klasse enthält Methoden zur Betrags- und Minimumberechnung.

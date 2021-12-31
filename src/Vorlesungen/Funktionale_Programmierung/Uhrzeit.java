@@ -1,4 +1,4 @@
-package Funktionale_Programmierung;
+package Vorlesungen.Funktionale_Programmierung;
 
 /**
  * Diese Klasse stellt Methoden zum Rechnen mit Uhrzeiten

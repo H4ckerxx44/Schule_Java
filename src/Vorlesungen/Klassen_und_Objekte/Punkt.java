@@ -1,4 +1,4 @@
-package Klassen_und_Objekte;
+package Vorlesungen.Klassen_und_Objekte;
 
 /**
  * Ein Objekt dieser Klasse repräsentiert einen Punkt in einer 2D-Ebene.

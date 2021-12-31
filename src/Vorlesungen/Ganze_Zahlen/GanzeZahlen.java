@@ -1,4 +1,4 @@
-package Ganze_Zahlen;
+package Vorlesungen.Ganze_Zahlen;
 
 /**
  * Diese Klasse gibt Code-Beispiele für ganze Zahlen und Zeichenketten.

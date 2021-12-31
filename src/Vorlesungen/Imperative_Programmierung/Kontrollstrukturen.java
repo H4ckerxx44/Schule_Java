@@ -1,4 +1,4 @@
-package Imperative_Programmierung;
+package Vorlesungen.Imperative_Programmierung;
 
 /**
  * Diese Klasse veranschaulicht die Verwendung von Kontrollstrukturen.

@@ -1,4 +1,4 @@
-package Rationale_Zahlen;
+package Vorlesungen.Rationale_Zahlen;
 
 /**
  * Diese Klasse gibt Code-Beispiele für rationale Zahlen.

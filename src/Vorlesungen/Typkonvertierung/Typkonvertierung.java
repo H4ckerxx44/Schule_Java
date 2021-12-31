@@ -1,4 +1,4 @@
-package Typkonvertierung;
+package Vorlesungen.Typkonvertierung;
 
 /**
  * Diese Klasse führt mit Hilfe von Ausdrücken einfache Berechnungen durch und

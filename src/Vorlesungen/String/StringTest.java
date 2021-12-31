@@ -1,4 +1,4 @@
-package String;
+package Vorlesungen.String;
 
 
 /**

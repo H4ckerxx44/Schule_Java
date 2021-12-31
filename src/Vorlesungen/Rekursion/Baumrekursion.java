@@ -1,4 +1,4 @@
-package Rekursion;
+package Vorlesungen.Rekursion;
 
 /**
  * Der Zweck dieser Klasse ist es, Code-Beispiele für baumrekursiv definierte Methoden
