@@ -11,10 +11,6 @@ public class EAN
 
 		System.out.println(f);
 		System.out.println(w);
-
-
-
-		assert f == w;
 	}
 
 	public static long check_for(String ean_code)

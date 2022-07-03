@@ -14,31 +14,10 @@ public class SchoolStuff
 
 	public static void main(String[] args)
 	{
-		int s = summation(15);
-		int sl = summationl(15);
+		System.out.println(v(CustomConstants.M_sun, CustomConstants.AU, CustomConstants.AU));
+		System.out.println(mischtemperatur(4.22, 400, 70, 4.22, 50, 22));
+		System.out.println(mischtemperatur(4.22, 450, 64, 4.22, 50, 22));
 
-		System.out.println(s);
-		System.out.println(sl);
-
-
-		/*
-		Engine audi_engine = new Engine();
-		Car audi = new Car("Audi", "A3", "Green", 5, audi_engine);
-
-		Engine bmw_engine = new Engine();
-		Car bmw = new Car("BMW", "M3", "Black", 5, bmw_engine);
-
-		// System.out.println(audi.stateReport());
-		// System.out.println(bmw.stateReport());
-		// System.out.println(summation(50));
-		System.out.println(Arrays.toString(fibonacci(50)));
-
-		Gehege loooool = new Gehege("Lol", "Tierart", 1999);
-
-		Zoo zoo = new Zoo();
-
-		zoo.addGehege(loooool);
-		*/
 	}
 
 	public static double randomNum(int min, int max)
@@ -49,11 +28,11 @@ public class SchoolStuff
 
 	public static void emptyVase(int flowersInVase)
 	{
-		if (flowersInVase > 0 )
+		if (flowersInVase > 0)
 		{
 			// take one flower and
 			System.out.printf("Took %s flower out, %s remaining\n", 1, flowersInVase);
-			emptyVase( flowersInVase - 1 ) ;
+			emptyVase(flowersInVase - 1);
 		}
 		else
 		{
@@ -88,7 +67,7 @@ public class SchoolStuff
 
 	public static void repeatStringNTimes(String message, int n)
 	{
-		for (int i=0; i < n; i++)
+		for (int i = 0; i < n; i++)
 		{
 			System.out.printf("%s | %d\n", message, i);
 		}
@@ -116,11 +95,28 @@ public class SchoolStuff
 		fib[0] = 0;
 		fib[1] = 1;
 
-		for (int i=2; i < num; i++)
+		for (int i = 2; i < num; i++)
 		{
-			fib[i] = fib[i-1] + fib[i-2];
+			fib[i] = fib[i - 1] + fib[i - 2];
 		}
 		return fib;
+	}
+
+	public static int wasser_erhitzen(int menge, double zieltemp, double starttemp, int heizleistung)
+	{
+		return (int) ((menge * (zieltemp - starttemp) * 4186) / heizleistung);
+	}
+
+	public static double mischtemperatur(double wk1, double mass1, double temp1, double wk2, double mass2, double temp2)
+	{
+		double t = (((mass1 * wk1 * temp1) + (mass2 * wk2 * temp2)) / ((mass1 * wk1) + (mass2 * wk2)));
+		return t;
+	}
+
+	public static double v(double parent_mass, double r, double sma_of_body)
+	{
+		double res = Math.sqrt(CustomConstants.G * parent_mass * ((2 / r) - (1 / sma_of_body)));
+		return res;
 	}
 
 	public static void datatypes()
@@ -150,13 +146,8 @@ public class SchoolStuff
 
 		// Arrays
 		String[] names = {"Dennis", "Indra", "Ash"};
-		int[] nums_1d = {0,1,2};
-		int[][] nums_2d = {{0,1,2}, {3,4,5}};
-		int[][][] nums_3d = {{{1,2,3}, {4,5,6}, {7,8,9}}};
-	}
-
-	public int lol()
-	{
-		return this.x;
+		int[] nums_1d = {0, 1, 2};
+		int[][] nums_2d = {{0, 1, 2}, {3, 4, 5}};
+		int[][][] nums_3d = {{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}};
 	}
 }
