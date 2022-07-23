@@ -11,7 +11,6 @@ public class SchoolStuff
 		HIGH,
 		CRITICAL
 	}
-
 	public static void main(String[] args)
 	{
 		System.out.println(v(CustomConstants.M_sun, CustomConstants.AU, CustomConstants.AU));
