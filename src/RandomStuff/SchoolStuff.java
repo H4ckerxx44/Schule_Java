@@ -18,6 +18,9 @@ public class SchoolStuff
 		System.out.println(mischtemperatur(4.22, 400, 70, 4.22, 50, 22));
 		System.out.println(mischtemperatur(4.22, 450, 64, 4.22, 50, 22));
 
+
+		System.out.println(v(15000, 500, 6));
+
 	}
 
 	public static double randomNum(int min, int max)
