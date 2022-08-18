@@ -7,8 +7,6 @@ public class EAN
 		long f = check_for(code);
 		long w = check_while(code);
 
-		w += 100;
-
 		System.out.println(f);
 		System.out.println(w);
 	}
@@ -35,15 +33,14 @@ public class EAN
 				if (eins)
 				{
 					multiplikator = 1;
-					eins = false;
 				}
 				else
 				{
 					multiplikator = 3;
-					eins = true;
 				}
 				nummer = nummer / 10;
 				pruefueng = pruefueng + (zahl * multiplikator);
+				eins = !eins;
 			}
 
 			pruefueng = 10 - (pruefueng % 10);
@@ -52,7 +49,6 @@ public class EAN
 			{
 				pruefueng = 0;
 			}
-			System.out.println(pruefueng);
 			return pruefueng;
 		}
 	}
@@ -65,10 +61,9 @@ public class EAN
 		boolean eins = false;
 
 		int durchlauf = 0;
-		int laenge = ean_code.length();
 		long nummer = Long.parseLong(ean_code);
 
-		while (durchlauf < laenge)
+		while (durchlauf < ean_code.length())
 		{
 			zahl = nummer % 10;
 			if (eins)
@@ -92,7 +87,6 @@ public class EAN
 		{
 			pruefueng = 0;
 		}
-		System.out.println(pruefueng);
 		return pruefueng;
 	}
 }
