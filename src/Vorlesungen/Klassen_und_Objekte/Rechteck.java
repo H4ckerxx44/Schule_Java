@@ -13,7 +13,7 @@ public class Rechteck
 	 * Ursprung, d.h. linke obere Ecke dieses Rechtecks.
 	 */
 
-	private Punkt ursprung;
+	private final Punkt ursprung;
 
 	/**
 	 * Breite dieses Rechtecks.

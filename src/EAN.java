@@ -17,8 +17,7 @@ public class EAN
 		{
 			System.out.println("Invalid Code.");
 			return 0;
-		}
-		else
+		} else
 		{
 			long multiplikator;
 			long zahl;
@@ -33,8 +32,7 @@ public class EAN
 				if (eins)
 				{
 					multiplikator = 1;
-				}
-				else
+				} else
 				{
 					multiplikator = 3;
 				}
@@ -70,8 +68,7 @@ public class EAN
 			{
 				multiplikator = 1;
 				eins = false;
-			}
-			else
+			} else
 			{
 				multiplikator = 3;
 				eins = true;

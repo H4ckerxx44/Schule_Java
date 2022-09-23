@@ -154,7 +154,7 @@ public class Kontrollstrukturen
 		System.out.println("i = " + i + ", summe = " + summe);
 		while (i <= obereGrenze)
 		{
-			summe = summe + i * i;
+			summe = summe + (long) i * i;
 			i = i + 1;
 			System.out.println("i = " + i + ", summe = " + summe);
 		}
@@ -212,37 +212,37 @@ public class Kontrollstrukturen
 
 		int haeufigkeit = 0;
 
-        //        int i = 0;
-        //        while (i < wort.length())
-        //        {
-        //            if (wort.charAt(i) == zeichen)
-        //            {
-        //                haeufigkeit++;
-        //            }
-        //            i++;
-        //        }
+		//        int i = 0;
+		//        while (i < wort.length())
+		//        {
+		//            if (wort.charAt(i) == zeichen)
+		//            {
+		//                haeufigkeit++;
+		//            }
+		//            i++;
+		//        }
 
-        //        int i = 0;
-        //        while (i < wort.length() && haeufigkeit < mindesthaeufigkeit)
-        //        {
-        //            if (wort.charAt(i) == zeichen)
-        //            {
-        //                haeufigkeit++;
-        //            }
-        //            i++;
-        //        }
+		//        int i = 0;
+		//        while (i < wort.length() && haeufigkeit < mindesthaeufigkeit)
+		//        {
+		//            if (wort.charAt(i) == zeichen)
+		//            {
+		//                haeufigkeit++;
+		//            }
+		//            i++;
+		//        }
 
 		/*
 		 * Nicht so gute Realisierung: Häufigkeit insgesamt zählen und dann mit
 		 * Untergrenze vergleichen.
 		 */
-        //        for (int i = 0; i < wort.length(); i = i + 1)
-        //        {
-        //            if (wort.charAt(i) == zeichen)
-        //            {
-        //                haeufigkeit++;
-        //            }
-        //        }
+		//        for (int i = 0; i < wort.length(); i = i + 1)
+		//        {
+		//            if (wort.charAt(i) == zeichen)
+		//            {
+		//                haeufigkeit++;
+		//            }
+		//        }
 
 		/*
 		 * Besser: nur solange zählen, wie die gezählte Häufigkeit noch

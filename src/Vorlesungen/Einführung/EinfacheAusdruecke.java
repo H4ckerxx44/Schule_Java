@@ -64,7 +64,7 @@ public class EinfacheAusdruecke
 		 * Gleichrangige Operatoren werden in der Regel von links nach rechts
 		 * angewendet, hier also gleichwertig zu (5 / 3) * 3.
 		 */
-		System.out.println(5 / 3 * 3);
+		System.out.println(3);
 
 
 		/* Relationale Operatoren */
@@ -87,21 +87,21 @@ public class EinfacheAusdruecke
 		 * UND-Operatoren: Hier haben && und & denselben Effekt. Den Unterschied
 		 * zwischen beiden Operatoren behandeln wir unten.
 		 */
-		System.out.println(false && true);
-		System.out.println(true & false);
+		System.out.println(false);
+		System.out.println(false);
 
 		/*
 		 * ODER-Operatoren: Hier haben || und | denselben Effekt. Den
 		 * Unterschied zwischen beiden Operatoren werden wir später behandeln.
 		 */
-		System.out.println(true || false);
-		System.out.println(true | false);
+		System.out.println(true);
+		System.out.println(true);
 
 		/*
 		 * Logische Negation
 		 */
-		System.out.println(!(20 > 20));
-		System.out.println(!(15 == 20));
+		System.out.println(true);
+		System.out.println(true);
 
 		/*
 		 * Es kommt zu einem Fehler, da sich der Teilausdruck 3 / 0 nicht
@@ -115,14 +115,14 @@ public class EinfacheAusdruecke
 		 * wenn dies erforderlich ist. Hier ist es nicht erforderlich, deshalb
 		 * kommt es nicht zu einem Fehler wg. Division durch 0.
 		 */
-		System.out.println((1 < 2) || (3 / 0 == 4));
+		System.out.println(true);
 		// System.out.println((3 / 0 == 4) || (1 < 2));
 
 
 		/*
 		 * Beispielausdruck aus der Vorlesung
 		 */
-		System.out.println((2 - (4 / 2) > 0) || (12 * 2 < (2 + 3) * 5));
+		System.out.println(true);
 
 
 		/* fehlerhafte Ausdrücke */

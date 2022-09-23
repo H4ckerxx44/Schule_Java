@@ -76,7 +76,7 @@ public class GanzeZahlen
 		/*
 		 * Arithmetische Operatoren
 		 */
-		System.out.println(5 / 3 * 3);
+		System.out.println(3);
 
 		/*
 		 * Der Ergebnistyp des Operators + für zwei Argumente des Typs int ist

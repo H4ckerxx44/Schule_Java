@@ -2,15 +2,15 @@ public class Rechner
 {
 	public static void main(String[] args)
 	{
-		System.out.println(String.format("%s, %s", est(1L), 1));
-		System.out.println(String.format("%s, %s", est(12L), 12));
-		System.out.println(String.format("%s, %s", est(123L), 123));
-		System.out.println(String.format("%s, %s", est(1234L), 1234));
-		System.out.println(String.format("%s, %s", est(12345L), 12345));
-		System.out.println(String.format("%s, %s", est(123456L), 123456));
-		System.out.println(String.format("%s, %s", est(1234567L), 1234567));
-		System.out.println(String.format("%s, %s", est(12345678L), 12345678));
-		System.out.println(String.format("%s, %s", est(123456789L), 123456789));
+		System.out.printf("%s, %s%n", est(1L), 1);
+		System.out.printf("%s, %s%n", est(12L), 12);
+		System.out.printf("%s, %s%n", est(123L), 123);
+		System.out.printf("%s, %s%n", est(1234L), 1234);
+		System.out.printf("%s, %s%n", est(12345L), 12345);
+		System.out.printf("%s, %s%n", est(123456L), 123456);
+		System.out.printf("%s, %s%n", est(1234567L), 1234567);
+		System.out.printf("%s, %s%n", est(12345678L), 12345678);
+		System.out.printf("%s, %s%n", est(123456789L), 123456789);
 	}
 
 	public static long est(Long income)
@@ -36,8 +36,7 @@ public class Rechner
 		if ((income < 277825) && (income > 58597)) // 58.597 - 277.825
 		{
 			return (long) (0.42 * income - 9267.53);
-		}
-		else // 277.826+
+		} else // 277.826+
 		{
 			return (long) (0.45 * income - 17602.28);
 		}

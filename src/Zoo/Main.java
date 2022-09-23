@@ -60,7 +60,7 @@ public class Main
 
 		for (int i = 0; i < zoo.gehege.size(); i++)
 		{
-			System.out.println(zoo.gehege.get(i).getGehegename() + "||" +zoo.gehege.get(i).getTierart());
+			System.out.println(zoo.gehege.get(i).getGehegename() + "||" + zoo.gehege.get(i).getTierart());
 		}
 
 		System.out.println("-----------------------");

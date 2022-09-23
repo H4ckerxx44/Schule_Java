@@ -2,7 +2,7 @@ package RandomStuff
 
 fun main()
 {
-	val result = area(5.0 ,5.0)
+	val result = area(5.0, 5.0)
 	println(result)
 }
 

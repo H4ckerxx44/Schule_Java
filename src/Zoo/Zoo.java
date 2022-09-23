@@ -2,6 +2,7 @@ package Zoo;
 
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Zoo
 {
@@ -9,15 +10,12 @@ public class Zoo
 
 	public void addGehege(Gehege gehege)
 	{
-	this.gehege.add(gehege);
+		this.gehege.add(gehege);
 	}
 
 	public void addGehege(Gehege[] gehege)
 	{
-		for (int i = 0; i < gehege.length; i++)
-		{
-			this.gehege.add(gehege[i]);
-		}
+		Collections.addAll(this.gehege, gehege);
 	}
 
 	public void removeGehege(Gehege gehege)
@@ -35,7 +33,7 @@ public class Zoo
 
 	public void allesReinigen()
 	{
-		for (Gehege gehege: this.gehege)
+		for (Gehege gehege : this.gehege)
 		{
 			gehege.machSauber();
 		}
@@ -46,12 +44,10 @@ public class Zoo
 		if (this.gehege.size() == 0)
 		{
 			System.out.println("Der Zoo hat keinerlei Gehege lol, 1/5 Sterne");
-		}
-		else if (this.gehege.size() < 10)
+		} else if (this.gehege.size() < 10)
 		{
 			System.out.println("Kleiner Vorstadt Zoo");
-		}
-		else
+		} else
 		{
 			System.out.println("Woah so ein feuerzoo jonge!");
 		}

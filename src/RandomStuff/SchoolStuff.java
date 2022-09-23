@@ -4,13 +4,6 @@ public class SchoolStuff
 {
 	int x = 4;
 
-	enum Level
-	{
-		LOW,
-		MEDIUM,
-		HIGH,
-		CRITICAL
-	}
 	public static void main(String[] args)
 	{
 		System.out.println(v(CustomConstants.M_sun, CustomConstants.AU, CustomConstants.AU));
@@ -35,8 +28,7 @@ public class SchoolStuff
 			// take one flower and
 			System.out.printf("Took %s flower out, %s remaining\n", 1, flowersInVase);
 			emptyVase(flowersInVase - 1);
-		}
-		else
+		} else
 		{
 			System.out.println("Done");
 		}
@@ -47,8 +39,7 @@ public class SchoolStuff
 		if (k > 0)
 		{
 			return k + summation(k - 1);
-		}
-		else
+		} else
 		{
 			return 0;
 		}
@@ -151,5 +142,13 @@ public class SchoolStuff
 		int[] nums_1d = {0, 1, 2};
 		int[][] nums_2d = {{0, 1, 2}, {3, 4, 5}};
 		int[][][] nums_3d = {{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}};
+	}
+
+	enum Level
+	{
+		LOW,
+		MEDIUM,
+		HIGH,
+		CRITICAL
 	}
 }

@@ -19,7 +19,7 @@ public class StringTest
 		 * zwei String-Variablen mit gleichem Wert
 		 */
 		String ort1 = "Gelsenkirchen";
-		String ort2 = new String("Gelsenkirchen");
+		String ort2 = "Gelsenkirchen";
 
 		/*
 		 * Wahrheitswert ausgeben, ob ort1 und ort2 denselben Wert enthalten.
@@ -34,8 +34,8 @@ public class StringTest
 		/*
 		 * Jetzt die Zeichenketten über Konstruktor erzeugen.
 		 */
-		ort1 = new String("Gelsenkirchen");
-		ort2 = new String("Gelsenkirchen");
+		ort1 = "Gelsenkirchen";
+		ort2 = "Gelsenkirchen";
 
 		/*
 		 * Wahrheitswert ausgeben, ob ort1 und ort2 denselben Wert enthalten.
