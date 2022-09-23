@@ -1,4 +1,4 @@
-package Lokale_Variablen;
+package Übungen.Lokale_Variablen;
 
 public class Ricegrains
 {

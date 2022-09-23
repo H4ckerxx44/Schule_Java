@@ -1,4 +1,4 @@
-package Klassen_und_Objekte;
+package Übungen.Klassen_und_Objekte;
 
 public class RationaleZahlTest
 {

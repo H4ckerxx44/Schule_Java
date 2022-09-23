@@ -1,4 +1,4 @@
-package Endrekursion;
+package Übungen.Endrekursion;
 
 public class ZahlUmdrehen
 {

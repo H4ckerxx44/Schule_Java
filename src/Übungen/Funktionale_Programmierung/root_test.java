@@ -1,4 +1,4 @@
-package Funktionale_Programmierung;
+package Übungen.Funktionale_Programmierung;
 
 public class root_test
 {

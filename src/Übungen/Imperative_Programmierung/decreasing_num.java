@@ -1,4 +1,4 @@
-package Imperative_Programmierung;
+package Übungen.Imperative_Programmierung;
 
 public class decreasing_num
 {

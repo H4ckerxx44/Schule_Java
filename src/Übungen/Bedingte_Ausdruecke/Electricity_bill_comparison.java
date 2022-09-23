@@ -1,4 +1,4 @@
-package Bedingte_Ausdruecke;
+package Übungen.Bedingte_Ausdruecke;
 
 public class Electricity_bill_comparison
 {

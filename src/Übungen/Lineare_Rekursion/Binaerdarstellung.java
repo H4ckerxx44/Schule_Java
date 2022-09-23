@@ -1,4 +1,4 @@
-package Lineare_Rekursion;
+package Übungen.Lineare_Rekursion;
 
 public class Binaerdarstellung
 {

@@ -1,4 +1,4 @@
-package Funktionale_Programmierung;
+package Übungen.Funktionale_Programmierung;
 
 /**
  * Diese Klasse berechnet und zeigt ob eine Zahl die Wurzel einer anderen Zahl ist.

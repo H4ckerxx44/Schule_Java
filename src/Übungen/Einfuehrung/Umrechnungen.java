@@ -1,4 +1,4 @@
-package Einfuehrung;
+package Übungen.Einfuehrung;
 
 public class Umrechnungen
 {

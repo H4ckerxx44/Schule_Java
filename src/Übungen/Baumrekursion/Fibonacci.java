@@ -1,4 +1,4 @@
-package Baumrekursion;
+package Übungen.Baumrekursion;
 
 public class Fibonacci
 {
