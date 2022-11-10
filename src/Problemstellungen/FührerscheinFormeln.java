@@ -4,10 +4,10 @@ public class FührerscheinFormeln
 {
 	public static void main(String[] args)
 	{
-		int speed = 400;
+		double speed = 1420.45;
 		int step_size = 50;
 
-		int iter_limit = speed + step_size;
+		double iter_limit = speed + step_size;
 		for (int i = 0; i < iter_limit; i += step_size)
 		{
 			double r = reaktionsweg(i);

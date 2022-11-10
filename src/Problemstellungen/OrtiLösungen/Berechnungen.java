@@ -7,36 +7,41 @@ public class Berechnungen {
 	// Anlegen der Methoden
 
 	// Methode Bremsweg
-	public static void reBremsweg(int geschwindigkeit)
+	public static int reBremsweg(int geschwindigkeit)
 	{
 		// this.geschwindigkeit = eiGeschwindigkeit;
 		int awBremsweg;
 		awBremsweg = (geschwindigkeit / 10) * (geschwindigkeit / 10);
-		System.out.println("Der Bremsweg beträgt:" + " " + awBremsweg + "m");
+		return awBremsweg;
 	}
 
 	// Methode Reaktionsweg
-	public static void reReaktionsweg(int geschwindigkeit)
+	public static int reReaktionsweg(int geschwindigkeit)
 	{
 		int awReaktionsweg;
 		awReaktionsweg =  (geschwindigkeit / 10) * 3;
-		System.out.println("Der Reaktionsweg beträgt:" + " " + awReaktionsweg + "m");
+		System.out.println("hahah");
+		return awReaktionsweg;
 	}
 
 	// Methode Anhalteweg
-	public static void reAnhalteweg(int geschwindigkeit)
+	public static int reAnhalteweg(int geschwindigkeit)
 	{
 		int awAnhalteweg;
-		// awAnhalteweg = Reaktionsweg + Bremsweg;
-		awAnhalteweg = ((geschwindigkeit / 10) * (geschwindigkeit / 10)) + ((geschwindigkeit / 10) * 3);
-		System.out.println("Der Anhalteweg beträgt:" + " " + awAnhalteweg + "m");
+		awAnhalteweg = reBremsweg(geschwindigkeit) + reReaktionsweg(geschwindigkeit);
+		return awAnhalteweg;
 	}
 
 	// Methode Gefahrenbremsung
-	public static void reGefahrenbremsung(int geschwindigkeit)
+	public static int reGefahrenbremsung(int geschwindigkeit)
 	{
 		int awGefahrenbremsung;
-		awGefahrenbremsung = ((geschwindigkeit / 10) * (geschwindigkeit / 10)) / 2;
-		System.out.println("Der Weg der Gefahrenbremsung beträgt:" + " " + awGefahrenbremsung + "m");
+		awGefahrenbremsung = reAnhalteweg(geschwindigkeit) / 2;
+		return awGefahrenbremsung;
+	}
+
+	public static int random()
+	{
+		return 3737;
 	}
 }

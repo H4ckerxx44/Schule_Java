@@ -6,13 +6,7 @@ public class SchoolStuff
 
 	public static void main(String[] args)
 	{
-		System.out.println(v(CustomConstants.M_sun, CustomConstants.AU, CustomConstants.AU));
-		System.out.println(mischtemperatur(4.22, 400, 70, 4.22, 50, 22));
-		System.out.println(mischtemperatur(4.22, 450, 64, 4.22, 50, 22));
-
-
-		System.out.println(v(15000, 500, 6));
-
+		System.out.println(mischtemperatur(4.190, 200, 70, 4.190, 3200, 15));
 	}
 
 	public static double randomNum(int min, int max)
