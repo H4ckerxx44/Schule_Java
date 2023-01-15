@@ -1,6 +1,7 @@
 package Problemstellungen.OrtiLösungen;
 
-public class Berechnungen {
+public class Berechnungen
+{
 	// Anlegen der Variablen
 	int geschwindigkeit;
 
@@ -19,7 +20,7 @@ public class Berechnungen {
 	public static int reReaktionsweg(int geschwindigkeit)
 	{
 		int awReaktionsweg;
-		awReaktionsweg =  (geschwindigkeit / 10) * 3;
+		awReaktionsweg = (geschwindigkeit / 10) * 3;
 		System.out.println("hahah");
 		return awReaktionsweg;
 	}

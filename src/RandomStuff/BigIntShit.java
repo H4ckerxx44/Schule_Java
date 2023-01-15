@@ -33,7 +33,7 @@ public class BigIntShit
 		wr.println();
 
 		long lim = 2147483647;
-		for (int i = 0; i < lim ; i++)
+		for (int i = 0; i < lim; i++)
 		{
 			if (i % 10_000 == 0)
 			{

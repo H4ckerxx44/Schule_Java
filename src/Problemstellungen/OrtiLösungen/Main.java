@@ -14,12 +14,14 @@ Fabian Ortmann - ITA3
 */
 
 // Bibliothek laden
+
 import java.util.Scanner;
 
 // Main Klasse erstellen
 public class Main
 {
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 
 		// Anlegen von Variable
 		int eiGeschwindigkeit;
